@@ -1,0 +1,286 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  background-color: #fefefe;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* ------HEADER------ */
+
+.header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+}
+.navigation {
+  margin-right: 30px;
+}
+.navigation-list {
+  display: flex;
+  gap: 28px;
+}
+.navigation-list-item {
+}
+.navigation-link {
+  display: block;
+  font-size: 14px;
+  padding: 28px 0;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+.button-order-now {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  cursor: pointer;
+  background-color: #bbf330;
+  border-radius: 30px;
+  padding: 0 17px;
+  min-width: 98px;
+  height: 32px;
+  border: none;
+}
+
+/* -----HERO----- */
+.hero {
+  padding-top: 16px;
+  padding-bottom: 69px;
+}
+
+.hero .container {
+  display: flex;
+}
+
+.hero-text-wrap {
+  max-width: 511px;
+  margin-right: 143px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin-bottom: 28px;
+  margin-top: 159px;
+}
+
+.hero-title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* ----ABOUT OUR OFFERINGS */
+.section-about {
+  padding-top: 113px;
+  padding-bottom: 124px;
+  background-color: #ffe550;
+}
+
+.section-about .container {
+  display: flex;
+  align-items: center;
+}
+
+.about-text-wreper {
+  margin-left: 90px;
+  max-width: 573px;
+}
+
+.about-ofer-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.about-text-title {
+  margin-bottom: 40px;
+}
+
+.about-ofer-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+
+.about-ofer-list-title {
+  width: calc((100% - 67px) / 2);
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2c2c2c;
+  margin-bottom: 16px;
+}
+.about-paragraf {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.button-about {
+  background-color: #fff;
+  border: 2px solid #7eb101;
+}
+
+/* ------FAVORITES FOOD----- */
+.section-favorites-food {
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+
+.section-favorites-food .container {
+  align-items: center;
+}
+
+.food-name-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food-tittle-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.food-title {
+  width: calc((100% - 64px) / 3);
+}
+
+/* -----REVIEW------ */
+.section-review {
+}
+
+.review-list {
+}
+
+.review-list-title {
+}
+
+.review-paragraf {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+.review-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+/* -----SUBSCRIBE----- */
+.section-subscribe {
+}
+
+.email-form {
+}
+
+.email-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+
+.email-subscribe-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+/* -----FOOTER----- */
+
+.form-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.text-under-input {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.text-under-input-accent {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
+}
+
+.information-link-list {
+}
+
+.information-link-title {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
+}
+
+.page-release {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
